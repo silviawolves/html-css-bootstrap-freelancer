@@ -2,15 +2,19 @@ h1, h3 {
     text-transform: uppercase;
 }
 
-.nav-bar {
+.nav-bar, .footer {
     background-color: #2C3F51;
 }
 
-.header, .about {
+.header, .about, .btn-lightgreen {
     background-color: #19BC9D;
     color: white;
 }
 
 .header img {
     width: 200px;
+}
+
+.info-section {
+    background-color: #3A546D;
 }
