@@ -34,6 +34,23 @@
 
 .header img {
     width: 200px;
+    padding-bottom: 1rem;
+}
+
+.divider {
+    padding-top: 1rem;
+    gap: 20px;
+}
+
+.white-line {
+    border-top: 3px solid white;
+    border-radius: 10px;
+    width: 15%;
+}
+
+.divider svg {
+    fill: #fff;
+    width: 25px;
 }
 
 .info-section {
