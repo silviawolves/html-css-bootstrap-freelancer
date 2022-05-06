@@ -38,12 +38,12 @@
 }
 
 .divider {
-    padding-top: 1rem;
+    padding-top: .9rem;
     gap: 20px;
 }
 
-.white-line {
-    border-top: 3px solid white;
+.line {
+    border-top: 3px solid;
     border-radius: 10px;
     width: 15%;
 }
@@ -51,6 +51,19 @@
 .divider svg {
     fill: #fff;
     width: 25px;
+}
+
+.round-size {
+    border-radius: 10px;
+    width: 100%;
+}
+
+svg {
+    width: 15px;
+}
+
+.download {
+    vertical-align: middle;
 }
 
 .info-section {
