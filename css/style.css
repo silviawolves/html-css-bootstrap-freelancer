@@ -1,15 +1,16 @@
+h1, h3 {
+    text-transform: uppercase;
+}
+
 .nav-bar {
     background-color: #2C3F51;
 }
 
-.header {
+.header, .about {
     background-color: #19BC9D;
+    color: white;
 }
 
 .header img {
     width: 200px;
-}
-
-h1, h3 {
-    text-transform: uppercase;
 }
