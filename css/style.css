@@ -1,11 +1,18 @@
-.uppercase {
-    text-transform: uppercase;
+.round-size {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.header, .about, .btn-lightgreen {
+    background-color: #19BC9D;
+    color: white;
 }
 
 .nav-bar, .footer {
     background-color: #2C3F51;
 }
 
+/* BARRA DI NAVIGAZIONE */
 .navlink a {
     text-decoration: none;
     color: white;
@@ -21,22 +28,19 @@
     padding: .2rem .6rem;
 }
 
-.toggle svg {
-    fill: grey;
-    width: 20px;
+.fa-solid.fa-bars {
+    color: grey;
     display: block;
+    text-align: center;
 }
 
-.header, .about, .btn-lightgreen {
-    background-color: #19BC9D;
-    color: white;
-}
-
+/* SEZIONE I: HEADER */
 .header img {
     width: 200px;
     padding-bottom: 1rem;
 }
 
+/* LINEE DIVISORIE CON STELLINA IN MEZZO */
 .divider {
     padding-top: .9rem;
     gap: 20px;
@@ -45,27 +49,54 @@
 .line {
     border-top: 3px solid;
     border-radius: 10px;
-    width: 15%;
+    width: 13%;
 }
 
-.divider svg {
-    fill: #fff;
-    width: 25px;
+.fa-solid.fa-star {
+    font-size: 25px;
 }
 
-.round-size {
-    border-radius: 10px;
-    width: 100%;
-}
-
-svg {
+/* SEZIONE III: ABOUT BOOTSTRAP */
+.fa-solid.fa-download {
     width: 15px;
+    vertical-align: middle;
 }
 
 .download {
     vertical-align: middle;
 }
 
+/* SEZIONE IV: CONTACT FORM */
+.border-none {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    
+}
+
+/* SEZIONE V: INFORMAZIONI START BOOTSTRAP */
 .info-section {
     background-color: #3A546D;
+}
+
+.start-link {
+    color: #19BC9D;
+    text-decoration: none;
+}
+
+.circle-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .5rem;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 21px;
+    margin: 5px;
+}
+
+/* FOOTER */
+.footer h6 {
+    font-size: .7rem;
 }
