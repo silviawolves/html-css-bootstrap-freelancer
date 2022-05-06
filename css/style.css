@@ -1,9 +1,30 @@
-h1, h3 {
+.uppercase {
     text-transform: uppercase;
 }
 
 .nav-bar, .footer {
     background-color: #2C3F51;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.toggle {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: .2rem .6rem;
+}
+
+.toggle svg {
+    fill: grey;
+    width: 20px;
+    display: block;
 }
 
 .header, .about, .btn-lightgreen {

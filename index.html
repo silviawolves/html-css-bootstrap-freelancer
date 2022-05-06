@@ -14,16 +14,20 @@
     
     <!-- TOP NAVIGATION BAR DARKBLUE -->
     <div class="nav-bar p-3">
-        <div class="container d-flex justify-content-between text-light align-items-center">
+        <div class="container d-flex justify-content-between text-light align-items-center px-5">
 
             <div class="logo">
-                <h3 class="m-0">Start Bootstrap</h3>
+                <h5 class="m-0 uppercase"><strong>Start Bootstrap</strong></h5>
             </div>
             
-            <div class="navlink">
+            <div class="navlink uppercase d-none d-md-block">
                 <a href="#">Portfolio</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
+            </div>
+
+            <div class="toggle d-block d-md-none">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
             </div>
 
         </div>
@@ -31,19 +35,19 @@
 
     <!-- I: HEADER START BOOTSTRAP SECTION GREEN -->
     <div class="header">
-        <div class="container text-center">
+        <div class="container p-5 text-center">
 
             <img src="img/avatar.svg" alt="avatar">
-            <h1>Start Bootstrap</h1>
+            <h1 class="uppercase">Start Bootstrap</h1>
 
         </div>
     </div>
 
     <!-- II: PORTFOLIO SECTION WHITE -->
     <div class="portfolio">
-        <div class="container text-center">
+        <div class="container p-5 text-center">
 
-            <h1>Portfolio</h1>
+            <h1 class="uppercase">Portfolio</h1>
 
             <div class="row row-cols-md-2 row-cols-lg-3">
 
@@ -90,9 +94,9 @@
 
     <!-- III: ABOUT BOOTSTRAP SECTION GREEN -->
     <div class="about">
-        <div class="container p-4">
+        <div class="container p-5">
 
-            <h1 class="text-center">About</h1>
+            <h1 class="text-center uppercase">About</h1>
 
             <div class="row">
                 <div class="col-12 col-md-6">
@@ -115,9 +119,9 @@
 
     <!-- IV: CONTACT FORM BOOTSTRAP WHITE -->
     <div class="contact-form">
-        <div class="container p-4">
+        <div class="container p-5">
 
-            <h1 class="text-center">Contact me</h1>
+            <h1 class="text-center uppercase">Contact me</h1>
 
             <div class="form">
             <input class="form-control" type="text" placeholder="Name" aria-label="default input example">
@@ -138,7 +142,7 @@
 
     <!-- V: BOOTSTRAP INFOS DARKBLUE -->
     <div class="info-section">
-        <div class="container p-4">
+        <div class="container p-5">
 
             <div class="row justify-content-center text-center">
                 <div class="col-12 col-md-3">testo</div>
@@ -149,8 +153,9 @@
         </div>
     </div>
 
+    <!-- BOOTSTRAP PAGE FOOTER WITH COPYRIGHT DARKERBLUE-->
     <div class="footer">
-        <div class="container text-center p-2">
+        <div class="container p-5 text-center">
 
             <h6>Copyright © Your Website 2019</h6>
 
