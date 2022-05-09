@@ -133,19 +133,26 @@
                 <div class="line"></div>
             </div>
 
-            <form class="form">
-                <input class="form-control border-none px-0 py-2" type="text" placeholder="Name" aria-label="default input example">
+            <form class="form pt-1">
+                <div class="form-floating">
+                    <input type="text" class="form-control border-none px-0" id="floatingInput" placeholder="Name">
+                    <label for="floatingInput" class="px-0 text-secondary">Name</label>
+                </div>
 
-                <input class="form-control border-none px-0 py-2" type="email" placeholder="Email Address" aria-label="default input example">
+                <div class="form-floating">
+                    <input type="email" class="form-control border-none px-0" id="floatingInput" placeholder="Email Address">
+                    <label for="floatingInput" class="px-0 text-secondary">Email Address</label>
+                </div>
 
-                <input class="form-control border-none px-0 py-2" type="number" placeholder="Phone Number" aria-label="default input example">
+                <div class="form-floating">
+                    <input type="number" class="form-control border-none px-0" id="floatingInput" placeholder="Phone Number">
+                    <label for="floatingInput" class="px-0 text-secondary">Phone Number</label>
+                </div>
 
                 <textarea class="form-control border-none px-0 pt-3" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
 
                 <button type="submit" class="btn btn-lightgreen mt-3">Send</button>
             </form>
-
-            </div>
         </div>
     </div>
 
