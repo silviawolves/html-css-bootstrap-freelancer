@@ -12,25 +12,10 @@
 }
 
 /* BARRA DI NAVIGAZIONE */
-.navlink a {
-    text-decoration: none;
-    color: white;
-    font-size: .8rem;
-    font-weight: bold;
-    display: inline-block;
-    padding-left: 1rem;
-}
-
 .toggle {
     border: 1px solid lightgray;
     border-radius: 5px;
     padding: .2rem .6rem;
-}
-
-.fa-solid.fa-bars {
-    color: grey;
-    display: block;
-    text-align: center;
 }
 
 /* SEZIONE I: HEADER */
