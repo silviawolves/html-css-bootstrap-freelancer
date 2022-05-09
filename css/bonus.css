@@ -1,0 +1,7 @@
+img {
+    transition: all .5s linear;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1);
+}
