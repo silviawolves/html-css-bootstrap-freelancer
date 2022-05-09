@@ -10,6 +10,7 @@
 
 .nav-bar, .footer {
     background-color: #2C3F51;
+    color: white;
 }
 
 /* BARRA DI NAVIGAZIONE */
@@ -97,6 +98,6 @@
 }
 
 /* FOOTER */
-.footer h6 {
+.copyright {
     font-size: .7rem;
 }
