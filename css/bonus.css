@@ -5,3 +5,29 @@ img {
 .portfolio img:hover {
     transform: scale(1.1);
 }
+
+a i {
+    transition: all .5s linear;
+}
+
+.facebook:hover {
+    color: white;
+    background-color: #1877F2;
+    border: 1px solid #1877F2;
+}
+
+.google:hover {
+    color: #DC4E41;
+    background-color: white;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+    background-color: white;
+}
+
+.linkedin:hover {
+    color: white;
+    background-color: #0966C2;
+    border: 1px solid #0966C2;
+}
